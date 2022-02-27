@@ -54,6 +54,7 @@ body {
     background-image: url('/img/Main_bg.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
+    background-size: 100%;
     font-family: "NEXON Lv1 Gothic OTF";
 }
 
