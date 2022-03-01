@@ -33,16 +33,15 @@ body {
 
 button {
     font-family: "NEXON Lv1 Gothic OTF";
-    font-size: 20px;
-    width: 400px;
-    height: 50px;
-    padding: 5px;
-    border-style: none;
-    border-radius: 5px;
+    font-size: 30px;
+    width: 714px;
+    height: 90px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
-    background-color: #fff;
-    color: #000;
+    border-style: none;
+    background-color: #467E57;
+    color: #FFFFFF;
 }
 
 button:hover {
@@ -93,8 +92,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
     margin-top: 180px;
-    margin-right: 450px;
 }
 
 .result_explains ul {
@@ -106,6 +105,7 @@ button:hover {
 }
 
 .result_explains li {
+    line-height: 1.5;
     padding-bottom: 50px;
     padding-left: 30px;
 }
@@ -147,6 +147,6 @@ button:hover {
 
 @media screen and (width: 1920px) {
     .size{
-        margin-bottom: 643px;
+        margin-bottom: 449px;
     }
 }
