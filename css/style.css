@@ -53,8 +53,7 @@ body {
     height: 100%;
     background-image: url('/img/Main_bg.png');
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: 100%;
+    background-size: 100% auto;
     font-family: "NEXON Lv1 Gothic OTF";
 }
 
@@ -167,5 +166,5 @@ body {
 .option{
     font-size: 24px;
     color: #ABABAB;
-    padding-bottom: 113px;
+    /* padding-bottom: 113px; */
 }
