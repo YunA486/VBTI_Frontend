@@ -12,12 +12,12 @@ function sendLink() {
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
-            title: '나의 개발 유형은?',
-            description: '나에게 꼭 맞는 개발 유형을 알아보자!!',
-            imageUrl: 'https://mbit.weniv.co.kr/static/img/mbit_thumbnail.png',
+            title: '나에게 어울리는 채소는?',
+            description: '나와 알맞는 채소를 찾아보자!',
+            imageUrl: 'https://t1.daumcdn.net/cfile/blog/2455914A56ADB1E315',
             link: {
-                mobileWebUrl: 'https://mbit.weniv.co.kr',
-                webUrl: 'https://mbit.weniv.co.kr',
+                mobileWebUrl: 'https://dict.naver.com/',
+                webUrl: 'https://ko.dict.naver.com/#/main',
             },
         },
         social: {
@@ -36,8 +36,8 @@ function sendLink() {
         {
             title: '테스트 하러가기',
             link: {
-                webUrl: 'https://mbit.weniv.co.kr',
-                mobileWebUrl: 'https://mbit.weniv.co.kr',
+                webUrl: 'https://dict.naver.com/',
+                mobileWebUrl: 'https://ko.dict.naver.com/#/main',
             },
         },
         ],

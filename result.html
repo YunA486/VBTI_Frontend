@@ -5,17 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <meta property="og:title" content="나의 개발 유형은?" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:description" content="나에게 꼭 맞는 개발 유형은 무엇일까?" /> -->
-
     <title>VBTI</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/result.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+</style>
 <body>
+    <img src="/img/result1_bg.png">
     <section id="main_contents">
         <div class="wrapper">
             <div class="result">
@@ -32,42 +31,42 @@
                     <li>hello world</li>
                 </ul>
             </div>
-            <div style="text-align: center; display: flex; flex-direction: row; margin-top: 473px; margin-right: 20px;">
-                <div style="margin-right: 190px;">
-                    <p style="color: #191919; font-size: 30px; font-weight: bold; margin-bottom: 100px;">2위</p>
-                    <img src="/img/pepper.png">
-                    <p style="color: #191919; font-size: 30px; font-weight: bold; margin-top: 136px;">고추</p>
+            <div class="ranking">
+                <div class="secondranking">
+                    <p class="firstp">2위</p>
+                        <img src="/img/pepper.png">
+                    <p class="secondp">고추</p>
                 </div>
                 <div>
-                    <p style="color: #191919; font-size: 30px; font-weight: bold; margin-bottom: 100px;">3위</p>
+                    <p class="firstp">3위</p>
                     <img src="/img/tomato.png">
-                    <p style="color: #191919; font-size: 30px; font-weight: bold; margin-top: 121px;">토마토</p>
+                    <p class="thirdp">토마토</p>
                 </div>
             </div>
             <div class="buttons">
                 <ul>
                     <li style="margin-top: 120px;">
                         <a href="#">
-                            <button type="button">홈으로 돌아가기</button>
+                            <button type="button" class="button">홈으로 돌아가기</button>
                         </a>
                     </li>
                     <li>
                         <div class="url">
-                            <button class="copy_btn" type="button">URL 복사하기</button>
+                            <button type="button" class="copy_btn">URL 복사하기</button>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="share">
-                <p style="margin-top: 80px; color: #191919; font-size: 20px; text-align: center;">친구들과 공유해 보세요!</p>
-                <div style="display: flex; flex-direction: row; margin-top: 30px;">
-                    <div class="facebook" style="margin-right: 70px;">
-                        <img src="/img/share_facebook.png"/><a href="#" style="color: #467E57; font-size: 24px;">Facebook</a>
-                        <!-- 버튼으로 바꾸기 -->
+                <p>친구들과 공유해 보세요!</p>
+                <div class="share_buttons">
+                    <div class="facebook_share">
+                        <img src="/img/share_facebook.png"/>
+                            <button class="snsshare">Facebook</button>
                     </div>
-                    <div class="kakao">
-                        <img src="/img/share_instagram.png"/><a style="color: #467E57; font-size: 24px;">Instagram</a>
-                        <!-- 버튼으로 바꾸기 -->
+                    <div class="instagram">
+                        <img src="/img/share_instagram.png"/>
+                        <button class="snsshare">Instagram</button>
                     </div>
                 </div>
             </div>
