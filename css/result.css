@@ -128,6 +128,11 @@ body {
     margin-top: 90px;
 }
 
+.buttons li{
+    text-align: center;
+    align-items: center;
+}
+
 .buttons{
     position: absolute;
     top: 2372px;
@@ -135,27 +140,46 @@ body {
 }
 
 .button {
-    font-size: 30px;
     width: 714px;
     height: 90px;
     border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
     border-style: none;
     background-color: #467E57;
+
     color: #FFFFFF;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.homeimg{
+    margin-right: 15px;
+    position: absolute;
+    left: 235px;
+    top: 31px;
 }
 
 .copy_btn{
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
     font-size: 30px;
+    line-height: 43px;
     width: 714px;
     height: 90px;
     border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    border-style: none;
-    background-color: #467E57;
-    color: #FFFFFF;
+    border: solid 1px #467E57;
+    background-color: #FCFBE8;
+    color: #467E57;
+}
+
+.copyimg{
+    margin-right: 15px;
+    position: absolute;
+    left: 255px;
+    margin-top: 30px;
 }
 
 button {
@@ -191,6 +215,14 @@ button {
     outline: 0;
     color: #467E57; 
     font-size: 24px;
+}
+
+.vertical{
+    width: 2px;
+    height: 42px;
+    margin-right: 75px;
+    background-color: #E3E2CB;
+    border: none;
 }
 
 .buttons button {
