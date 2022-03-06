@@ -22,7 +22,7 @@
                     <img src="/img/1_icon.png">
                     <div class="answer">
                         <div class="btn">
-                            <input type="radio" name="answer_1" id="an1-1" class="rbtn">
+                            <input type="radio" name="answer_1" id="an1-1" class="rbtn" onclick="$('html, body').stop().animate( { scrollTop : '-=100' } ); ">
                             <label for="an1-1">텃밭이 있어요.</label>
                         </div>
                         <div class="btn">
@@ -34,6 +34,7 @@
                 </div>
                 <div class="test">
                     <div class="question_container">
+                        <button class="prev_btn">< BACK</button>
                         <progress value="10" max="110"></progress>
                         <h3 class="question">채소의 크기를 골라주세요!</h3>
                     </div>
@@ -50,6 +51,7 @@
                 </div>
                 <div class="test">
                     <div class="question_container">
+                        <button class="prev_btn">< BACK</button>
                         <progress value="20" max="110"></progress>
                         <h3 class="question">과정이 중요한가요? 결과가 중요한가요?</h3>
                     </div>
@@ -64,14 +66,13 @@
                         </div>
                     </div>
                     <!-- <div class="btn_wrap">
-                        <button class="prev_btn">이 전</button>
                         <input type="submit" value="제 출" class="submit_btn"/>
                     </div> -->
                 </div>
             </form>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script type="text/javascript" src="form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/js/form.js"></script>
 </body>
 </html>
