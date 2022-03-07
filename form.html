@@ -16,17 +16,18 @@
             <form id="form">
                 <div class="test">
                     <div class="question_container">
+                        <button class="prev_btn" type="button" onclick="scrollWin(0,-1080)">< BACK</button>
                         <progress value="0" max="110"></progress>
                         <h3 class="question">Q. 집에 텃밭이 있나요?</h3>
                     </div>
                     <img src="/img/1_icon.png">
                     <div class="answer">
                         <div class="btn">
-                            <input type="radio" name="answer_1" id="an1-1" class="rbtn" onclick="$('html, body').stop().animate( { scrollTop : '-=100' } ); ">
+                            <input type="radio" name="answer_1" id="an1-1" class="rbtn" onclick="scrollWin(0,1080)">
                             <label for="an1-1">텃밭이 있어요.</label>
                         </div>
                         <div class="btn">
-                            <input type="radio" name="answer_1" id="an1-2" class="rbtn">
+                            <input type="radio" name="answer_1" id="an1-2" class="rbtn" onclick="scrollWin(0,1080)">
                             <label for="an1-2">텃밭이 없어요.</label>
                         </div>
                     </div>
@@ -34,26 +35,60 @@
                 </div>
                 <div class="test">
                     <div class="question_container">
-                        <button class="prev_btn">< BACK</button>
+                        <button class="prev_btn" type="button" onclick="scrollWin(0,-1080)">< BACK</button>
                         <progress value="10" max="110"></progress>
-                        <h3 class="question">채소의 크기를 골라주세요!</h3>
+                        <h3 class="question">Q.채소의 크기를 골라주세요!</h3>
                     </div>
                     <div class="answer">
                         <div class="btn">
-                            <input type="radio" name="answer_2" id="an2-1" class="rbtn"/>
+                            <input type="radio" name="answer_2" id="an2-1" class="rbtn" onclick="scrollWin(0,1080)"/>
                             <label for="an2-1">큰 것도 좋아요!</label>
                         </div>
                         <div class="btn">
-                            <input type="radio" name="answer_2" id="an2-2" class="rbtn"/>
+                            <input type="radio" name="answer_2" id="an2-2" class="rbtn" onclick="scrollWin(0,1080)"/>
                             <label for="an2-2">작은 게 좋아요!</label>
                         </div>
                     </div>
                 </div>
                 <div class="test">
                     <div class="question_container">
-                        <button class="prev_btn">< BACK</button>
+                        <button class="prev_btn" onclick="scrollWin(0,-1080)">< BACK</button>
                         <progress value="20" max="110"></progress>
-                        <h3 class="question">과정이 중요한가요? 결과가 중요한가요?</h3>
+                        <h3 class="question">Q.과정이 중요한가요? 결과가 중요한가요?</h3>
+                    </div>
+                    <div class="answer">
+                        <div class="btn">
+                            <input type="radio" name="answer_10" id="an3-1" class="rbtn" onclick="scrollWin(0,1080)"/>
+                            <label for="an3-1">과정이 중요해요.</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" name="answer_10" id="an3-2" class="rbtn" onclick="scrollWin(0,1080)"/>
+                            <label for="an3-2">결과가 더 중요해요.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="question_container">
+                        <button class="prev_btn" onclick="scrollWin(0,-1080)">< BACK</button>
+                        <progress value="30" max="110"></progress>
+                        <h3 class="question">Q. 좋아하는 색을 골라주세요!</h3>
+                    </div>
+                    <div class="answer">
+                        <div class="btn">
+                            <input type="radio" name="answer_10" id="an3-1" class="rbtn" onclick="scrollWin(0,1080)"/>
+                            <label for="an3-1">과정이 중요해요.</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" name="answer_10" id="an3-2" class="rbtn" onclick="scrollWin(0,1080)"/>
+                            <label for="an3-2">결과가 더 중요해요.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="question_container">
+                        <button class="prev_btn" onclick="scrollWin(0,-1080)">< BACK</button>
+                        <progress value="40" max="110"></progress>
+                        <h3 class="question">Q.MBTI를 선택해주세요!</h3>
                     </div>
                     <div class="answer">
                         <div class="btn">
