@@ -7,8 +7,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="/js/index.js"></script>
     <title>나의 채소유형 찾기</title>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
 </head>
 
 <style>
@@ -41,7 +48,7 @@
             <div class="result_data">
                 <div class="data_wrap">
                     <h3><span>&nbsp참여자 수&nbsp</span></h3>
-                    <p class="num">56</p>
+                    <p class="counter">56</p>
                 </div>
             </div>
             
@@ -55,7 +62,7 @@
             <p class="option">Please choose on option</p>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
 </body>
 </html>
