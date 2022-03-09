@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta property="og:title" content="NAVER">
+    <meta property="og:url" content="https://www.naver.com/">
+    <!-- 서버 만들어서 넣기 -->
+    <meta property="og:description" content="내용">
+    <meta property="og:image" content="이미지 경로">
+
     <title>VBTI</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/result.css">
@@ -56,7 +62,7 @@
                     <li>
                         <div class="url">
                             <img src="/img/copy.png" class="copyimg">
-                            <button type="button" class="copy_btn">
+                            <button type="button" class="copy_btn" onclick="clip(); return false;">
                                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp링크 복사하기
                             </button>
                         </div>
@@ -67,7 +73,7 @@
                 <p>친구들과 공유해 보세요!</p>
                 <div class="share_buttons">
                         <img src="/img/share_facebook.png"/>
-                        <button class="facebook_share">Facebook</button>
+                        <button class="facebook_share" onclick="sharing();">Facebook</button>
                         <hr class="vertical">
                         <img src="/img/share_instagram.png"/>
                         <button class="insta_share">Instagram</button>
@@ -76,6 +82,6 @@
         </div>
     </section>
     <script type="text/javascript" src="js/result.js"></script>
-    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <!-- <script src="https://developers.kakao.com/sdk/js/kakao.js"></script> -->
 </body>
 </html>
