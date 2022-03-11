@@ -60,7 +60,6 @@ body {
     font-size: 28px;
     width: auto;
     list-style-position: outside;
-    list-style-image: url('/img/star.png');
 }
 
 .result_explains li {
