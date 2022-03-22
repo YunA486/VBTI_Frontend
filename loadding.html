@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes rotate {
+            0% {
+                transform: translateY(0);
+            }
+            14% {
+                transform: translateY(-11%);
+            }
+            28% {
+                transform: translateY(-22%);
+            }
+            42% {
+                transform: translateY(-33%);
+            }
+            54% {
+                transform: translateY(-44%);
+            }
+            68% {
+                transform: translateY(-55%);
+            }
+            82% {
+                transform: translateY(-66%);
+            }
+            96% {
+                transform: translateY(-77%);
+            }
+            100% {
+                transform: translateY(-88%);
+            }
+        }
+        
+        .type {
+            line-height: 3em;
+            height: 3em;
+            font-family: Noto Sans KR;
+            font-style: normal;
+            font-weight: normal;
+            color: #191919;
+            overflow: hidden;
+            margin-top: 50px;
+        }
+        
+        .type_list {
+            animation: rotate 10s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="type" style="width: 500px; height: 500px; border: solid 1px #191919;">
+        <ul class="type_list" style="list-style: none;">
+            <li><img src="/img/veg_1.png"></li>
+            <li><img src="/img/veg_2.png"></li>
+            <li><img src="/img/veg_3.png"></li>
+            <li><img src="/img/veg_4.png"></li>
+            <li><img src="/img/veg_5.png"></li>
+            <li><img src="/img/veg_6.png"></li>
+            <li><img src="/img/veg_7.png"></li>
+            <li><img src="/img/veg_8.png"></li>
+            <li><img src="/img/veg_1.png"></li>
+        </ul>
+    </div>
+</body>
+</html>
