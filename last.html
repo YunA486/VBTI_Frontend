@@ -11,7 +11,7 @@
     <title>나와 어울리는 채소는?</title>
 </head>
 <style>
-    .racolor {
+    .lastquestions {
         accent-color: #6A9258;
         width: 50px; 
         height: 50px; 
@@ -47,33 +47,33 @@
                     <div class="answer">
                         <div style="float: left; font-size: 28px;">
                             <div class="Rbtn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>흰색</label>
                             </div>
                             <div class="btn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>빨간색</label>
                             </div>
                             <div class="btn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>주황색</label>
                             </div>
                             <div class="btn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>노란색</label>
                             </div>
                         </div>
                         <div style="font-size: 28px;">
                             <div class="Rbtn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>초록색</label>
                             </div>
                             <div class="btn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>보라색</label>
                             </div>
                             <div class="btn">
-                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="racolor">
+                                <input type="radio" onclick="scrollWin(0,1080)" name="chk_color" class="lastquestions">
                                 <label>기타</label>
                             </div>
                         </div>
@@ -82,22 +82,51 @@
                 </div>
                 <div class="test" style="margin-top: 50px;">
                     <div class="question_container">
-                        <button class="prev_btn" type="button" onclick="scrollWin(0,-1080)" name="chk_color" class="racolor">
+                        <button class="prev_btn" type="button" onclick="scrollWin(0,-1080)" name="chk_color" class="lastquestions">
                             < BACK</button>
                                 <progress value="10" max="110"></progress>
                                 <h3 class="question">Q.MBTI를 선택해 주세요!</h3>
                     </div>
-                    <img src="/img/whiteRec.png">
-                    <div class="answer">
-                        <div class="btn">
-                            <input type="radio" name="answer_2" id="an2-1" class="rbtn" onclick="scrollWin(0,1080)"
-                                name="chk_color" class="racolor" />
-                            <label for="an2-1">큰 것도 좋아요!</label>
+                    <div style="float: left; font-size: 28px;">
+                        <div class="Rbtn">
+                            <input type="radio" name="EI" class="lastquestions">
+                            <label>E</label>
                         </div>
                         <div class="btn">
-                            <input type="radio" name="answer_2" id="an2-2" class="rbtn" onclick="scrollWin(0,1080)"
-                                name="chk_color" class="racolor" />
-                            <label for="an2-2">작은 게 좋아요!</label>
+                            <input type="radio" name="NS" class="lastquestions">
+                            <label>N</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" name="FT" class="lastquestions">
+                            <label>F</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" onclick="scrollWin(0,1080)" name="PJ" class="lastquestions">
+                            <label>P</label>
+                        </div>
+                    </div>
+                    <div style="float: left; font-size: 28px;">
+                        <div class="Rbtn">
+                            <input type="radio" name="EI" class="lastquestions">
+                            <label>I</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" name="NS" class="lastquestions">
+                            <label>S</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" name="FT" class="lastquestions">
+                            <label>T</label>
+                        </div>
+                        <div class="btn">
+                            <input type="radio" onclick="scrollWin(0,1080)" name="PJ" class="lastquestions">
+                            <label>J</label>
+                        </div>
+                    </div>
+                    <div style="font-size: 28px;">
+                        <div class="Rbtn">
+                            <input type="radio" onclick="scrollWin(0,1080)" name="EI" and name="NS" and name="FT" and name="PJ" class="lastquestions">
+                            <label>잘 모르겠어요!</label>
                         </div>
                     </div>
                 </div>
